@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.restes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

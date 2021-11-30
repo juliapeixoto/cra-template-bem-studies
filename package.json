@@ -1,0 +1,11 @@
+{
+  "name": "cra-template-bem-studies",
+  "version": "1.0.0",
+  "description": "template for bem css studies",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Júlia Peixoto Pereira",
+  "license": "ISC"
+}

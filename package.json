@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Júlia Peixoto Pereira",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliapeixoto/cra-template-bem-studies.git"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  }
 }

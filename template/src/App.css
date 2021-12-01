@@ -2,7 +2,16 @@
   text-align: center;
 }
 
-.restes {
+.app__background {
+  width: 50%;
+  height: 650px;
+  background-color: #e8b4b8;
+  top: 136px;
+  position: absolute;
+  z-index: -1;
+}
+
+.app__card {
   display: flex;
   justify-content: center;
   margin-top: 20px;

@@ -1,37 +1,37 @@
-.header {
+.wrapperHeader {
   display: flex;
   justify-content: space-between;
   padding: 40px 40px;
 
-  &__inner__info {
+  .wrapperHeader-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
-    span {
-      font-family: Poppins, sans-serif;
-      font-weight: 300;
-      font-size: 18px;
-    }
-
-    &__name {
+    .containerInfo {
       display: flex;
       align-items: center;
       padding-bottom: 5px;
 
-      p {
+      .square {
+        width: 20px;
+        height: 20px;
+        background-color: #559b8e;
+      }
+
+      .user-name {
         font-family: Poppins, sans-serif;
         font-size: 25px;
         font-weight: 600;
         margin: 0;
         padding-left: 10px;
       }
+    }
 
-      &__square {
-        width: 20px;
-        height: 20px;
-        background-color: #559b8e;
-      }
+    .bigText {
+      font-family: Poppins, sans-serif;
+      font-weight: 300;
+      font-size: 18px;
     }
   }
 }

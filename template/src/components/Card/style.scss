@@ -1,4 +1,4 @@
-.card {
+.container {
   display: flex;
   background-color: #eed6d3;
   flex-direction: column;
@@ -7,30 +7,30 @@
   height: auto;
   box-shadow: -9px 9px 17px 0px rgb(138 131 124 / 23%);
 
-  &__inner__profile {
+  .profileImg {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-top: 40px;
   }
 
-  span {
+  .cardName {
     font-family: Poppins, sans-serif;
     font-weight: 600;
     padding-top: 30px;
-    width: 125px;
+    width: 150px;
     line-height: 1.2;
     font-size: 28px;
   }
 
-  &__inner__divider {
+  .divider {
     background-color: #559b8e;
     height: 1.5px;
     width: 55px;
     margin: 30px 0 30px;
   }
 
-  &__inner__buttons {
+  .containerButtons {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -39,17 +39,35 @@
       width: 135px;
       height: 32px;
       font-family: Poppins, sans-serif;
-      border: #000;
       font-weight: 600;
       font-size: 15px;
       border-radius: 20px;
-      background-color: transparent;
-      color: #000;
-      border: 1px solid #000;
+
       transition: 0.4s;
 
       &:hover {
         cursor: pointer;
+      }
+    }
+
+    .firstButton {
+      background-color: #559b8e;
+      color: #fff;
+      border-style: none;
+
+      &:hover {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+      }
+    }
+
+    .secondButton {
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #000;
+
+      &:hover {
         background-color: #559b8e;
         color: #fff;
         border-style: none;
@@ -57,7 +75,7 @@
     }
   }
 
-  &__inner__links {
+  .containerLinks {
     display: flex;
     width: 100%;
     padding: 16px 0;
@@ -65,7 +83,8 @@
     margin-top: 50px;
     justify-content: center;
 
-    img {
+    .iconLink {
+      cursor: pointer;
       width: 24px;
       height: 24px;
       margin: 0 7px;

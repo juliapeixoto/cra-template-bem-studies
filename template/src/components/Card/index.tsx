@@ -5,23 +5,19 @@ import "./style.scss";
 
 export default function Card() {
   return (
-    <div className="card">
-      <img
-        className="card__inner__profile"
-        src={icProfile}
-        alt="Foto de perfil"
-      />
-      <span>Júlia Peixoto</span>
-      <div className="card__inner__divider" />
+    <div className="container">
+      <img className="profileImg" src={icProfile} alt="Foto de perfil" />
+      <span className="cardName">Nome Completo</span>
+      <div className="divider" />
 
-      <div className="card__inner__buttons">
-        <button>RESUME</button>
-        <button>PROJECTS</button>
+      <div className="containerButtons">
+        <button className="firstButton">RESUME</button>
+        <button className="secondButton">PROJECTS</button>
       </div>
 
-      <div className="card__inner__links">
-        <img src={icGithub} alt="Ícone GitHub" />
-        <img src={icLinkedin} alt="Ícone Linkedin" />
+      <div className="containerLinks">
+        <img className="iconLink" src={icGithub} alt="Ícone GitHub" />
+        <img className="iconLink" src={icLinkedin} alt="Ícone Linkedin" />
       </div>
     </div>
   );
